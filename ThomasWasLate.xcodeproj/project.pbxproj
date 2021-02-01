@@ -23,6 +23,9 @@
 		5FD3735A25C7A92C00FAB798 /* Input.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5FD3735925C7A92C00FAB798 /* Input.cpp */; };
 		5FD3735C25C7AAE900FAB798 /* Update.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5FD3735B25C7AAE900FAB798 /* Update.cpp */; };
 		5FD3735E25C7ABD400FAB798 /* Draw.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5FD3735D25C7ABD400FAB798 /* Draw.cpp */; };
+		5FD3736325C7B9E800FAB798 /* PlayableCharacter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5FD3736125C7B9E800FAB798 /* PlayableCharacter.cpp */; };
+		5FD3736625C7C0BF00FAB798 /* Thomas.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5FD3736425C7C0BF00FAB798 /* Thomas.cpp */; };
+		5FD3736925C7C53500FAB798 /* Bob.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5FD3736725C7C53500FAB798 /* Bob.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,7 +51,12 @@
 		5FD3735925C7A92C00FAB798 /* Input.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Input.cpp; sourceTree = "<group>"; };
 		5FD3735B25C7AAE900FAB798 /* Update.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Update.cpp; sourceTree = "<group>"; };
 		5FD3735D25C7ABD400FAB798 /* Draw.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Draw.cpp; sourceTree = "<group>"; };
-		5FD3735F25C7B4BE00FAB798 /* PlayableCharacter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlayableCharacter.h; sourceTree = "<group>"; };
+		5FD3736025C7B58600FAB798 /* PlayableCharacter.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = PlayableCharacter.hpp; sourceTree = SOURCE_ROOT; };
+		5FD3736125C7B9E800FAB798 /* PlayableCharacter.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PlayableCharacter.cpp; sourceTree = "<group>"; };
+		5FD3736425C7C0BF00FAB798 /* Thomas.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Thomas.cpp; sourceTree = "<group>"; };
+		5FD3736525C7C0BF00FAB798 /* Thomas.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Thomas.hpp; sourceTree = "<group>"; };
+		5FD3736725C7C53500FAB798 /* Bob.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Bob.cpp; sourceTree = "<group>"; };
+		5FD3736825C7C53500FAB798 /* Bob.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Bob.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,16 +91,21 @@
 			children = (
 				5FD3732125C77F1E00FAB798 /* ResourcePath.mm */,
 				5FD3735525C7939200FAB798 /* Engine.hpp */,
-				5FD3735F25C7B4BE00FAB798 /* PlayableCharacter.h */,
+				5FD3736025C7B58600FAB798 /* PlayableCharacter.hpp */,
+				5FD3736825C7C53500FAB798 /* Bob.hpp */,
+				5FD3736525C7C0BF00FAB798 /* Thomas.hpp */,
 				5FD3732325C77F1E00FAB798 /* ResourcePath.hpp */,
 				5FD3734025C78B5E00FAB798 /* TextureHolder.hpp */,
 				5FD3733425C77F2D00FAB798 /* ThomasWasLate.entitlements */,
+				5FD3733F25C78B5E00FAB798 /* TextureHolder.cpp */,
 				5FD3735425C7939200FAB798 /* Engine.cpp */,
 				5FD3735925C7A92C00FAB798 /* Input.cpp */,
 				5FD3735B25C7AAE900FAB798 /* Update.cpp */,
 				5FD3735D25C7ABD400FAB798 /* Draw.cpp */,
+				5FD3736125C7B9E800FAB798 /* PlayableCharacter.cpp */,
+				5FD3736725C7C53500FAB798 /* Bob.cpp */,
+				5FD3736425C7C0BF00FAB798 /* Thomas.cpp */,
 				5FD3732425C77F1E00FAB798 /* main.cpp */,
-				5FD3733F25C78B5E00FAB798 /* TextureHolder.cpp */,
 				5FD3732625C77F1E00FAB798 /* Resources */,
 				5FD3731F25C77F1E00FAB798 /* Supporting Files */,
 			);
@@ -221,10 +234,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				5FD3734125C78B5E00FAB798 /* TextureHolder.cpp in Sources */,
+				5FD3736925C7C53500FAB798 /* Bob.cpp in Sources */,
 				5FD3735625C7939200FAB798 /* Engine.cpp in Sources */,
+				5FD3736625C7C0BF00FAB798 /* Thomas.cpp in Sources */,
 				5FD3732525C77F1E00FAB798 /* main.cpp in Sources */,
 				5FD3735E25C7ABD400FAB798 /* Draw.cpp in Sources */,
 				5FD3732225C77F1E00FAB798 /* ResourcePath.mm in Sources */,
+				5FD3736325C7B9E800FAB798 /* PlayableCharacter.cpp in Sources */,
 				5FD3735C25C7AAE900FAB798 /* Update.cpp in Sources */,
 				5FD3735A25C7A92C00FAB798 /* Input.cpp in Sources */,
 			);

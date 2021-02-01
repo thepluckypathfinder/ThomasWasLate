@@ -35,4 +35,17 @@ void Engine::input(){
         }//end key pressed
     }//wnd poll event
     
+    //handle input specific to Thomas
+    if(m_Thomas.handleInput()){
+        //Play a jump sound
+        
+    }
+    if(m_Bob.handleInput()){
+        //Play a jump sound
+        
+    }
+    
+    
+    
+    
 }//end input

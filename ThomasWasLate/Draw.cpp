@@ -21,6 +21,11 @@ void Engine::draw(){
         m_Window.draw(m_BackgroundSprite);
         //switch to main view
         m_Window.setView(m_MainView);
+        
+        // draw thomas and bob
+        m_Window.draw(m_Thomas.getSprite());
+        m_Window.draw(m_Bob.getSprite());
+        
         }
     else{
         // Split Screen view is active.
@@ -34,6 +39,11 @@ void Engine::draw(){
         //switch to leftview
         m_Window.setView(m_LeftView);
         
+        // draw thomas and bob
+        m_Window.draw(m_Bob.getSprite());
+        m_Window.draw(m_Thomas.getSprite());
+        
+        
         // Now draw Bob's side of the screen
         
         //switch to background view
@@ -42,6 +52,11 @@ void Engine::draw(){
         m_Window.draw(m_BackgroundSprite);
         //switch to RightView
         m_Window.setView(m_RightView);
+        
+        // draw thomas and bob
+        m_Window.draw(m_Thomas.getSprite());
+        m_Window.draw(m_Bob.getSprite());
+        
     }// if else splitscreen
     
     // Draw the HUD

@@ -14,6 +14,7 @@
 #include <SFML/Graphics.hpp>
 #include "Bob.hpp"
 #include "Thomas.hpp"
+#include "LevelManager.hpp"
 
 using namespace sf;
 
@@ -26,6 +27,8 @@ private:
     Thomas m_Thomas;
     Bob m_Bob;
     
+    // A class to manage all the levels
+    LevelManager m_LM; 
     
     const int TILE_SIZE = 50;
     const int VERTS_IN_QUAD = 4;
@@ -52,6 +55,17 @@ private:
     Sprite m_BackgroundSprite;
     Texture m_BackgroundTexture;
     
+    // The vertex array for the level design
+    VertexArray m_VALevel;
+
+    // The 2d array with the map for the level
+    // A pointer to a pointer
+    int** m_ArrayLevel = NULL;
+    
+    
+    // Texture for the background and the level tiles
+    Texture m_TextureTiles;
+    
     // Is the game currently playing?
     bool m_Playing = false;
     
@@ -73,6 +87,11 @@ private:
     void update(float dtAsSeconds);
     void draw();
     
+    // Load a new level
+    void loadLevel();
+
+    // Run will call all the private functions
+    bool detectCollisions(PlayableCharacter& character);
 public:
     //The engine constructor
     Engine();

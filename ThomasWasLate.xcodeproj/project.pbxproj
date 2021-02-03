@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5F911F6125CA905C00388255 /* LevelManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F911F6025CA905C00388255 /* LevelManager.cpp */; };
+		5F911F6325CA90B000388255 /* LoadLevel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F911F6225CA90B000388255 /* LoadLevel.cpp */; };
+		5F911F7025CA937B00388255 /* level4.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5F911F6C25CA937B00388255 /* level4.txt */; };
+		5F911F7125CA937B00388255 /* level2.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5F911F6D25CA937B00388255 /* level2.txt */; };
+		5F911F7225CA937B00388255 /* level3.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5F911F6E25CA937B00388255 /* level3.txt */; };
+		5F911F7525CA947200388255 /* DetectCollisions.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F911F7425CA947200388255 /* DetectCollisions.cpp */; };
+		5F911F7725CA979A00388255 /* level1.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5F911F7625CA979A00388255 /* level1.txt */; };
+		5F911F7A25CA989B00388255 /* SoundManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F911F7825CA989B00388255 /* SoundManager.cpp */; };
 		5FD3732225C77F1E00FAB798 /* ResourcePath.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5FD3732125C77F1E00FAB798 /* ResourcePath.mm */; };
 		5FD3732525C77F1E00FAB798 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5FD3732425C77F1E00FAB798 /* main.cpp */; };
 		5FD3734125C78B5E00FAB798 /* TextureHolder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5FD3733F25C78B5E00FAB798 /* TextureHolder.cpp */; };
@@ -29,6 +37,16 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5F911F5F25CA903100388255 /* LevelManager.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = LevelManager.hpp; sourceTree = "<group>"; };
+		5F911F6025CA905C00388255 /* LevelManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = LevelManager.cpp; path = "../../../../Downloads/Beginning-Cpp-Game-Programming-Second-Edition-master/Chapter16/code/LevelManager.cpp"; sourceTree = "<group>"; };
+		5F911F6225CA90B000388255 /* LoadLevel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = LoadLevel.cpp; path = "../../../../Downloads/Beginning-Cpp-Game-Programming-Second-Edition-master/Chapter16/code/LoadLevel.cpp"; sourceTree = "<group>"; };
+		5F911F6C25CA937B00388255 /* level4.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = level4.txt; sourceTree = "<group>"; };
+		5F911F6D25CA937B00388255 /* level2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = level2.txt; sourceTree = "<group>"; };
+		5F911F6E25CA937B00388255 /* level3.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = level3.txt; sourceTree = "<group>"; };
+		5F911F7425CA947200388255 /* DetectCollisions.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = DetectCollisions.cpp; path = "../../../../Downloads/Beginning-Cpp-Game-Programming-Second-Edition-master/Chapter16/code/DetectCollisions.cpp"; sourceTree = "<group>"; };
+		5F911F7625CA979A00388255 /* level1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = level1.txt; sourceTree = "<group>"; };
+		5F911F7825CA989B00388255 /* SoundManager.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SoundManager.cpp; sourceTree = "<group>"; };
+		5F911F7925CA989B00388255 /* SoundManager.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = SoundManager.hpp; sourceTree = "<group>"; };
 		5FD3731C25C77F1E00FAB798 /* ThomasWasLate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThomasWasLate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FD3732025C77F1E00FAB798 /* ThomasWasLate-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; name = "ThomasWasLate-Info.plist"; path = "/Users/mistyleaf/Desktop/Cpp Games/ThomasWasLate/../ThomasWasLate-Info.plist"; sourceTree = "<absolute>"; };
 		5FD3732125C77F1E00FAB798 /* ResourcePath.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ResourcePath.mm; sourceTree = "<group>"; };
@@ -89,14 +107,20 @@
 		5FD3731E25C77F1E00FAB798 /* ThomasWasLate */ = {
 			isa = PBXGroup;
 			children = (
+				5F911F7825CA989B00388255 /* SoundManager.cpp */,
 				5FD3732125C77F1E00FAB798 /* ResourcePath.mm */,
 				5FD3735525C7939200FAB798 /* Engine.hpp */,
 				5FD3736025C7B58600FAB798 /* PlayableCharacter.hpp */,
 				5FD3736825C7C53500FAB798 /* Bob.hpp */,
 				5FD3736525C7C0BF00FAB798 /* Thomas.hpp */,
 				5FD3732325C77F1E00FAB798 /* ResourcePath.hpp */,
+				5F911F5F25CA903100388255 /* LevelManager.hpp */,
 				5FD3734025C78B5E00FAB798 /* TextureHolder.hpp */,
 				5FD3733425C77F2D00FAB798 /* ThomasWasLate.entitlements */,
+				5F911F7925CA989B00388255 /* SoundManager.hpp */,
+				5F911F7425CA947200388255 /* DetectCollisions.cpp */,
+				5F911F6025CA905C00388255 /* LevelManager.cpp */,
+				5F911F6225CA90B000388255 /* LoadLevel.cpp */,
 				5FD3733F25C78B5E00FAB798 /* TextureHolder.cpp */,
 				5FD3735425C7939200FAB798 /* Engine.cpp */,
 				5FD3735925C7A92C00FAB798 /* Input.cpp */,
@@ -123,6 +147,10 @@
 		5FD3732625C77F1E00FAB798 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				5F911F7625CA979A00388255 /* level1.txt */,
+				5F911F6D25CA937B00388255 /* level2.txt */,
+				5F911F6E25CA937B00388255 /* level3.txt */,
+				5F911F6C25CA937B00388255 /* level4.txt */,
 				5FD3734D25C792C300FAB798 /* background.png */,
 				5FD3734C25C792C300FAB798 /* bob.png */,
 				5FD3734E25C792C300FAB798 /* thomas.png */,
@@ -194,11 +222,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F911F7725CA979A00388255 /* level1.txt in Resources */,
+				5F911F7025CA937B00388255 /* level4.txt in Resources */,
 				5FD3734825C792B000FAB798 /* fire1.wav in Resources */,
 				5FD3735225C792C300FAB798 /* thomas.png in Resources */,
 				5FD3734725C792B000FAB798 /* jump.wav in Resources */,
+				5F911F7125CA937B00388255 /* level2.txt in Resources */,
 				5FD3735125C792C300FAB798 /* background.png in Resources */,
 				5FD3735325C792C300FAB798 /* tiles_sheet.png in Resources */,
+				5F911F7225CA937B00388255 /* level3.txt in Resources */,
 				5FD3734B25C792B000FAB798 /* fallinfire.wav in Resources */,
 				5FD3735025C792C300FAB798 /* bob.png in Resources */,
 				5FD3734925C792B000FAB798 /* fallinwater.wav in Resources */,
@@ -238,10 +270,14 @@
 				5FD3735625C7939200FAB798 /* Engine.cpp in Sources */,
 				5FD3736625C7C0BF00FAB798 /* Thomas.cpp in Sources */,
 				5FD3732525C77F1E00FAB798 /* main.cpp in Sources */,
+				5F911F6125CA905C00388255 /* LevelManager.cpp in Sources */,
+				5F911F6325CA90B000388255 /* LoadLevel.cpp in Sources */,
 				5FD3735E25C7ABD400FAB798 /* Draw.cpp in Sources */,
 				5FD3732225C77F1E00FAB798 /* ResourcePath.mm in Sources */,
 				5FD3736325C7B9E800FAB798 /* PlayableCharacter.cpp in Sources */,
 				5FD3735C25C7AAE900FAB798 /* Update.cpp in Sources */,
+				5F911F7A25CA989B00388255 /* SoundManager.cpp in Sources */,
+				5F911F7525CA947200388255 /* DetectCollisions.cpp in Sources */,
 				5FD3735A25C7A92C00FAB798 /* Input.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
